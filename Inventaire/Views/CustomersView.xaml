@@ -110,7 +110,9 @@
             </StackPanel>      
 
             <StackPanel Grid.Row="9" Grid.Column="1" Margin="6">
-                <Button Content="Supprimer client" Command="{Binding DeleteCustomerCommand}" CommandParameter="{Binding SelectedCustomer}"/>
+                <Button Content="Supprimer client" 
+                        Command="{Binding DeleteCustomerCommand}"
+                        CommandParameter="{Binding SelectedCustomer}"/>
             </StackPanel>
 
         </Grid>
