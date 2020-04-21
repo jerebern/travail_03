@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
+//TEST COMMIT
 namespace BillingManagement.UI.ViewModels
 {
     public abstract class BaseViewModel : INotifyPropertyChanged
